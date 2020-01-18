@@ -1,0 +1,35 @@
+{
+  "name": "svgtoavg-cli",
+  "version": "1.0.0",
+  "description": "A simple command-line tool to convert SVG file to AVG (Alexa Presentation Language)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "svgtoavg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjun-g/svgtoavg-cli.git"
+  },
+  "keywords": [
+    "alexa",
+    "apl",
+    "alexa presentation language",
+    "avg",
+    "svg",
+    "vectorgraphics"
+  ],
+  "author": "Arjun G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjun-g/svgtoavg-cli/issues"
+  },
+  "homepage": "https://github.com/arjun-g/svgtoavg-cli#readme",
+  "dependencies": {
+    "svgo": "^1.3.2",
+    "svgson": "^4.0.0"
+  }
+}
