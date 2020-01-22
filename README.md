@@ -1,5 +1,5 @@
 # svgtoavg-cli
-A simple command-line tool to convert SVG file to AVG (Alexa Presentation Language)
+A simple command-line tool to convert SVG file to AVG (Alexa Vector Graphics)
 
 # Installation
 ```
@@ -18,6 +18,6 @@ svgtoavg image.svg image-avg.json
 
 # Bulk Convert Files In Folder (including subfolders)
 ```
-svgtoavg --bulk ./sourfolder ./destfolder
+svgtoavg --bulk ./sourcefolder ./destfolder
 ```
 
